@@ -89,14 +89,14 @@ proxy-groups:
   - {name: 🇸🇬 狮城自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(新加坡|坡|狮城|SG|Singapore))^((?!(台|日|韩|深|美|IPLC|套餐到期|剩余|流量|下次重置|直连)).)*$"}
   - {name: 🇺🇲 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|韩|新|日|IPLC|套餐到期|剩余|流量|下次重置|直连)).)*$"}
   - {name: 🇨🇳 台湾自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(台湾))^((?!(港|韩|新|日|美|IPLC|套餐到期|剩余|流量|下次重置|直连)).)*$"}
-  - {name: 🚀 节点选择, type: select,  proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
-  - {name: 📹 YouTube, type: select,  proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
-  - {name: 🤖 ChatGPT, type: select,  proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
-  - {name: 💬 GitHub, type: select,  proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
-  - {name: 📲 Telegram, type: select,  proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
-  - {name: 🎥 Netflix, type: select,  proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
-  - {name: 🎮 Steam, type: select,  proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
-  - {name: 🐟 漏网之鱼, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
+  - {name: 🚀 节点选择, type: select,  proxies: [ 🇭🇰 香港自动,  🇯🇵 日本自动,  🇸🇬 狮城自动, 🇺🇲 美国自动, 🇨🇳 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
+  - {name: 📹 YouTube, type: select,  proxies: [ 🇭🇰 香港自动,  🇯🇵 日本自动,  🇸🇬 狮城自动, 🇺🇲 美国自动, 🇨🇳 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
+  - {name: 🤖 ChatGPT, type: select,  proxies: [ 🇭🇰 香港自动,  🇯🇵 日本自动,  🇸🇬 狮城自动, 🇺🇲 美国自动, 🇨🇳 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
+  - {name: 💬 GitHub, type: select,  proxies: [ 🇭🇰 香港自动,  🇯🇵 日本自动,  🇸🇬 狮城自动, 🇺🇲 美国自动, 🇨🇳 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
+  - {name: 📲 Telegram, type: select,  proxies: [ 🇭🇰 香港自动,  🇯🇵 日本自动,  🇸🇬 狮城自动, 🇺🇲 美国自动, 🇨🇳 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
+  - {name: 🎥 Netflix, type: select,  proxies: [ 🇭🇰 香港自动,  🇯🇵 日本自动,  🇸🇬 狮城自动, 🇺🇲 美国自动, 🇨🇳 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
+  - {name: 🎮 Steam, type: select,  proxies: [ 🇭🇰 香港自动,  🇯🇵 日本自动,  🇸🇬 狮城自动, 🇺🇲 美国自动, 🇨🇳 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
+  - {name: 🐟 漏网之鱼, type: select, proxies: [ 🇭🇰 香港自动,  🇯🇵 日本自动,  🇸🇬 狮城自动, 🇺🇲 美国自动, 🇨🇳 台湾自动, ♻️ 自动选择, ♻️ 自动选择2x, 🌐 全部节点, 直连]}
 
 
 # 规则匹配
